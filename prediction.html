@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<body style="background-color: #FFA500">
+
+    <form  align='center' method='GET' action='http://127.0.0.1:9090/get_label'>
+	<center>
+                <h1>Enter the values you wanna predict </h1>
+                <div style="padding:7px"><span>Age : </span>
+               <input type='number' name='age' required></div>
+
+		<div style="padding:7px">
+                <span>WorkClass : </span>
+                <select name='workclass' >
+		<option selected disabled>-Please Select-</option>
+                <option>Federal-gov</option>
+                <option>Local-gov</option>
+		<option>Never-worked</option>
+		<option>Private</option>
+		<option>Self-emp-inc</option>
+		<option>Self-emp-not-inc </option>
+		<option>State-gov</option>
+		<option>Without-pay</option>
+                </select></div>
+
+		<div style="padding:7px">
+                <span>Education : </span>
+                <select name='education'>
+		<option selected disabled>-Please Select-</option>
+                <option>10th</option>
+                <option>11th</option>
+                <option>12th</option>
+		<option>1st-4th</option>
+                <option>5th-6th</option>
+                <option>7th-8th</option>
+                <option>9th</option>
+                <option>Assoc-acdm</option>
+                <option>Assoc-voc</option>
+		<option>Bachelors</option>
+                <option>Doctorate</option>
+                <option>HS-grad</option>
+                <option>Masters</option>
+                <option>Preschool</option>
+                <option>Prof-school</option>
+		<option>Some-college</option>
+                </select>
+		</div>
+
+		<div style="padding:7px">
+                <span>Marital-Status :</span>
+                <select name='marital-status'>
+		<option selected disabled>-Please Select-</option>
+                <option>Divorced</option>
+                <option>Married-AF-spouse</option>
+                <option>Married-civ-spouse</option>
+                <option>Married-spouse-absent</option>
+                <option>Never-married</option>
+                <option>Separated</option>
+		<option>Widowed</option>
+                </select></div>
+
+		<div style="padding:7px">
+                <span>Occupation :</span>
+                <select name='occupation'>
+		<option selected disabled>-Please Select-</option>
+                <option>Adm-clerical</option>
+                <option>Armed-Forces</option>
+                <option>Craft-repair</option>
+                <option>Exec-managerial</option>
+                <option>Farming-fishing</option>
+                <option>Handlers-cleaners</option>
+                <option>Machine-op-inspct</option>
+                <option>Other-service</option>
+                <option>Priv-house-serv</option>
+                <option>Prof-specialty</option>
+                <option>Protective-serv</option>
+                <option>Sales</option>
+		<option>Tech-support</option>
+		<option>Transport-moving</option>
+
+                </select></div>
+
+
+		<div style="padding:7px">
+                <span>Race :</span>
+                <select name='race'>
+		<option selected disabled>-Please Select-</option>
+                <option>Amer-Indian-Eskimo</option>
+                <option>Asian-Pac-Islander</option>
+                <option>Black</option>
+                <option>Other</option>
+                <option>White</option>
+                </select></div>
+
+
+		<div style="padding:7px">
+                <span>Sex</span>
+                <select name='sex'>
+		<option selected disabled>-Please Select-</option>
+                <option>Female</option>
+                <option>Male</option>
+                </select></div>
+
+                <div style="padding:7px"><span>Hours-Per-Week : </span>
+               <input type='number' name='hours-per-week' required></div>
+
+
+		<div style="padding:7px">
+                <span>Native-Country :</span>
+                <select name='native-country'>
+		<option selected disabled>-Please Select-</option>
+                <<option>Cambodia</option>
+                <option>Canada</option>
+                <option>China</option>
+                <<option>Columbia</option>
+                <option>Cuba </option>
+                <option>Dominican-Republic</option>
+                <<option>Ecuador</option>
+                <option>El-Salvador</option>
+                <option>England</option>
+                <<option>Greece</option>
+                <option>Germany</option>
+                <option>France</option>
+                <<option>Guatemala</option>
+                <option>Haiti</option>
+                <option>Holand-Netherlands</option>
+                <<option>Honduras</option>
+                <option>Hong</option>
+                <option>Hungary</option>
+                <<option>India</option>
+                <option>Iran</option>
+                <option>Ireland</option>
+                <<option>Italy</option>
+                <option>Jamaica</option>
+                <option>Japan</option>
+                <<option>Thailand</option>
+                <option>Mexico</option>
+                <option>Nicaragua</option>
+                <<option>Outlying-US(Guam-USVI-etc)</option>
+                <option>Peru</option>
+                <option>Philippines</option>
+                <<option>Poland</option>
+                <option>Portugal</option>
+                <option>Puerto-Rico</option>
+                <<option>Scotland</option>
+                <option>South</option>
+                <option>Taiwan</option>
+                <<option>Laos</option>
+                <option>Trinadad&Tobago</option>
+                <option>United-States</option>
+                <option>Vietnam</option>
+                <option>Yugoslavia</option>
+                </select></div>
+
+
+                </br></br>
+                <h1>Press Here to Get The Label Of new Data  </h1>
+                <h1 align='center'>      &#8595  </h1>
+                <input style='padding:15px;font-size:20px' type='submit' value='PREDICT'>
+	</center>
+    </form>
+
+</body>
+</html>
+
+
+
+
+
+   
